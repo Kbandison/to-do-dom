@@ -1,0 +1,54 @@
+#page{
+  font-family:"Sofia", sans-serif;
+  background-color:antiquewhite;
+  /* border: solid black; */
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  margin:auto;
+}
+
+h2{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+.buttons{
+  background-color:white;
+  
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+}
+
+.buttons:hover{
+  background-color:blanchedalmond;
+}
+
+.buttons:active{
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+}
+
+#edit-button{
+  margin-left: 10px;
+}
+
+#doneEdit{
+  margin-left: 10px;
+}
+
+#editTask{
+  margin-left: 10px;
+}
+
+.secondary-button{
+  height: 18px;
+  font-size: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+

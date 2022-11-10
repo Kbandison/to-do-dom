@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="page">
+    <h2>To-Do-List</h2>
+    <h4>Welcome to your to-do list!</h4>
+
+    <form id="add-task">
+      <div>
+        <label>Add task here: </label>
+        <input type="text" id="added-task" class="input" placeholder="Enter Task">
+      </div>
+      <input type="submit" class="buttons">
+      <br>
+    </form>
+      <div id="disclaimer"></div>
+      <div id="list-items"></div>
+    <br>
+    <div>
+      <input type="hidden" id="edit" value="Edit Task(s)" class="buttons">
+      <input type="hidden" id="mark" value="Mark Task(s) Completed" class="buttons">
+      <input type="hidden" id="remove" value="Remove Task(s)" class="buttons">
+      <input type="hidden" id="remove-all" value="Remove All Tasks" class="buttons">
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
